@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 1903px;
     margin: 0 auto;
 }
+
 .navbar {
     display: flex;
     height: 85px;
@@ -67,13 +68,14 @@ ul li a {
     color: #fff;
     font-weight: 400;
     border-radius: 4px;
+    transition: 0.25s;
 }
 
 button:hover {
     background-color: #01b481;
     transition: 0.5s;
     transform: scale(1.1);
-
+    cursor: pointer;
 }
 
 /*---title-info---*/
@@ -81,7 +83,6 @@ button:hover {
 .headline {
     width: 475px;
     margin-left: 275px;
-
 }
 .header-title {
     font-size: 65px;
@@ -108,9 +109,9 @@ button:hover {
 /*--how-it-works--*/
 
 .how-it-works {
-    width: 1413px;
+    width: 1903px;
     position: relative;
-    margin-left: 275px;
+    margin: 0 auto;
 }
 
 .works {
@@ -118,13 +119,16 @@ button:hover {
 }
 
 .works-left {
-    float: left;
     width: 584px;
+    position: absolute;
+    margin-left: 275px;
 }
 
 .works-right {
-    float: right;
     width: 671px;
+    position: absolute;
+    left: 720px;
+    margin-left: 275px;
 }
 
 .section-span {
@@ -154,11 +158,10 @@ button:hover {
 /*--blocks--*/
 
 .blocks {
-    width: 1413px;
     height: 1200px;
-    margin: 0 auto;
     position: relative;
     background-color: #FFF;
+    margin-left: 275px;
 }
 
 /*--block01--*/
@@ -176,7 +179,11 @@ button:hover {
     color: rgba(1, 153, 109, 0.2);
     font-family: 'Sans';
     margin-top: 152px;
-    
+    transition: 0.2s;
+}
+.works-block01-number:hover {
+    color: rgb(1, 126, 91);
+    transition: 0.2s;
 }
 
 .works-block01-title {
@@ -186,9 +193,13 @@ button:hover {
     top: 115px;
     left: 85px;
 }
+.works-block01-title:hover {
+    border-bottom: 2px solid green;
+}
 
 .img-block01 {
     margin-top: 60px;
+    transition: 0.25s;
 }
 
 .img-block01:hover {
@@ -213,7 +224,12 @@ button:hover {
     color: rgba(1, 153, 109, 0.2);
     font-family: 'Sans';
     margin-top: 152px;
-    
+    transition: 0.2s;
+}
+
+.works-block02-number:hover {
+    color: rgb(1, 126, 91);
+    transition: 0.2s;
 }
 
 .works-block02-title {
@@ -224,8 +240,13 @@ button:hover {
     left: 60px;
 }
 
+.works-block02-title:hover {
+    border-bottom: 2px solid green;
+}
+
 .img-block02 {
     margin-top: 60px;
+    transition: 0.25s;
 }
 
 .img-block02:hover {
@@ -251,7 +272,12 @@ button:hover {
     color: rgba(1, 153, 109, 0.2);
     font-family: 'Sans';
     margin-top: 152px;
-    
+    transition: 0.2s; 
+}
+
+.works-block03-number:hover {
+    color: rgb(1, 126, 91);
+    transition: 0.2s;
 }
 
 .works-block03-title {
@@ -262,8 +288,13 @@ button:hover {
     left: 100px;
 }
 
+.works-block03-title:hover {
+    border-bottom: 2px solid green;
+}
+
 .img-block03 {
     margin-top: 60px;
+    transition: 0.25s;
 }
 
 .img-block03:hover {
@@ -306,12 +337,18 @@ button:hover {
     position: absolute;
     top: 229px;
     right: 206px;
+    transition: 0.25s;
+}
+.story-video:hover {
+    opacity: 0.75;
+    transition: 0.25s;
 }
 
 .video-icon {
     position: absolute;
     left: 1210px;
     top: 445px;
+    transition: 0.25s;
 }
 
 .video-icon:hover {
@@ -331,6 +368,7 @@ button:hover {
     padding-top: 120px;
     margin-left: 336px;
     margin-bottom: 243px;
+    transition: 0.25s;
 }
 
 .img1:hover {
@@ -342,6 +380,7 @@ button:hover {
     position: absolute;
     left: 250px;
     top: 474px;
+    transition: 0.25s;
 }
 
 .img2:hover {
